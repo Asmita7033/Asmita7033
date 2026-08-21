@@ -8,21 +8,33 @@
   Editing notes:
   - Every claim below is taken from the resume. Don't add numbers the
     resume doesn't support.
-  - The username appears in ~8 widget URLs. If the handle ever changes,
-    find-and-replace "Asmita7033" across this whole file.
-  - The snake animation needs .github/workflows/snake.yml to have run
-    at least once, otherwise that one image shows as broken.
+  - IMAGE POLICY: this page deliberately depends on only two image
+    sources — img.shields.io (rock solid) and raw.githubusercontent.com
+    (her own repo). The github-readme-stats / streak-stats / trophy
+    cards were removed on 2026-08-22 because all three were failing to
+    load on the live profile. Don't reintroduce them unless they're
+    self-hosted.
+  - Keep every code block under 80 characters wide, or GitHub shows a
+    horizontal scrollbar in the narrow profile column.
+  - The username appears in 2 badge URLs and 3 snake URLs. If the handle
+    changes, find-and-replace "Asmita7033" across this whole file.
 -->
 
+```console
+╭──────────────────────────────────────────────────────────────────────────╮
+│                                                                          │
+│   ASMITA PANDEY                                                          │
+│   models that learn  ×  systems that ship                                │
+│                                                                          │
+│   systems/   Django · DRF · PostgreSQL · REST APIs · JWT · pytest        │
+│   models/    TensorFlow · scikit-learn · NLP · Computer Vision           │
+│                                                                          │
+│   B.E. AI & ML (VTU) · CGPA 8.9/10 · Bengaluru, India · immediate joiner │
+│                                                                          │
+╰──────────────────────────────────────────────────────────────────────────╯
+```
+
 <div align="center">
-
-# `Asmita Pandey`
-
-**AI/ML Engineer  ×  Django Backend Developer**
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3400&pause=900&color=58A6FF&center=true&vCenter=true&width=700&height=45&lines=I+build+models+that+learn+and+systems+that+ship;Django+%2B+DRF+%7C+PostgreSQL+%7C+REST+APIs;TensorFlow+%7C+scikit-learn+%7C+NLP+%7C+Computer+Vision" alt="I build models that learn and systems that ship" />
-
-<br>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=netlify&logoColor=00c7b7)](https://asmitapandeyprotfolio.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0a66c2)](https://linkedin.com/in/asmita-pandey-16a418360)
@@ -38,12 +50,12 @@
 ```console
 asmita@dev:~$ whoami --verbose
 
-  name        Asmita Pandey
-  role        Software Developer — full-stack Django, with a machine learning foundation
-  degree      B.E. Artificial Intelligence & Machine Learning (VTU) · CGPA 8.9 / 10 · 2022–2026
-  location    Bengaluru, India
-  status      Immediate joiner — open to backend and AI/ML engineering roles
-  shipping    production REST APIs with Django + DRF, and models with TensorFlow + scikit-learn
+  name       Asmita Pandey
+  role       Software Developer — Django full-stack, ML foundation
+  degree     B.E. AI & Machine Learning (VTU) · CGPA 8.9/10 · 2022–2026
+  location   Bengaluru, India
+  status     Immediate joiner — open to backend and AI/ML roles
+  shipping   REST APIs on Django + DRF · models in TensorFlow
 
 asmita@dev:~$ _
 ```
@@ -66,28 +78,58 @@ document classifiers until the trade-offs are actually understood — not just t
 
 ---
 
+### `$ cat ~/.local/share/impact.log`
+
+```console
+asmita@dev:~$ cat ~/.local/share/impact.log
+
+  [prod]   5 CRM modules shipped     Leads/Deals/Properties/Payments/Legal
+  [prod]   3 roles under RBAC + JWT  role-aware REST APIs, Django + DRF
+  [perf]   30% faster reports        query optimization + DB indexing
+  [test]   90%+ code coverage        pytest / unittest, CRM suite
+  [model]  92% in-field accuracy     CNN on edge hardware (plant disease)
+  [model]  85%+ classifier accuracy  RF / SVM / LogReg, tuned + compared
+  [edu]    8.9 / 10 CGPA             B.E. AI & ML (VTU), 2022–2026
+```
+
+<div align="center">
+
+![Followers](https://img.shields.io/github/followers/Asmita7033?style=for-the-badge&logo=github&logoColor=ffffff&label=followers&labelColor=0d1117&color=0d1117)
+![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FAsmita7033&query=%24.public_repos&style=for-the-badge&logo=github&logoColor=ffffff&label=public%20repos&labelColor=0d1117&color=0d1117)
+![Status](https://img.shields.io/badge/status-immediate_joiner-0d1117?style=for-the-badge&labelColor=0d1117)
+
+</div>
+
+---
+
 ### `$ git log --graph experience`
 
 ```console
 asmita@dev:~$ git log --graph --oneline experience
 
-* Oct 2025 – Jun 2026   NetPy Technologies — Software Development Intern · Bengaluru
-|                       Architected and shipped 5 core CRM modules — Leads, Deals, Properties,
-|                       Payments, Legal Management — on Django + DRF + PostgreSQL, exposing
-|                       production-grade REST APIs consumed across the platform.
-|                       Role-based access control for 3 distinct user roles with JWT auth.
-|                       Report generation 30% faster via query optimization + DB indexing.
-|                       pytest / unittest suite at 90%+ coverage.
-|                       Agile/Scrum: sprint planning, code reviews, daily stand-ups.
+* Oct 2025 – Jun 2026   NetPy Technologies · Bengaluru
+|                       Software Development Intern
 |
-* Jul 2025 – Aug 2025   Cognifyz Technologies — Machine Learning Intern · Remote
-|                       Random Forest / SVM / Logistic Regression classifiers at 85%+ accuracy
-|                       through iterative feature engineering and hyperparameter tuning.
-|                       Ran structured experiments across model types and feature sets,
-|                       documenting trade-offs to justify the final model selection.
+|   Architected and shipped 5 core CRM modules — Leads, Deals,
+|   Properties, Payments, Legal Management — on Django + DRF +
+|   PostgreSQL, exposing production-grade REST APIs consumed
+|   across the platform.
+|   Role-based access control for 3 distinct user roles, JWT auth.
+|   Report generation 30% faster: query optimization + indexing.
+|   pytest / unittest suite at 90%+ code coverage.
+|   Agile/Scrum — sprint planning, code reviews, daily stand-ups.
 |
-* 2022 – 2026           SEA College of Engineering and Technology, Bengaluru
-                        B.E. Artificial Intelligence & Machine Learning (VTU) · CGPA 8.9/10
+* Jul 2025 – Aug 2025   Cognifyz Technologies · Remote
+|                       Machine Learning Intern
+|
+|   Random Forest / SVM / Logistic Regression classifiers at 85%+
+|   accuracy through iterative feature engineering and
+|   hyperparameter tuning.
+|   Ran structured experiments across model types and feature
+|   sets, documenting trade-offs to justify the final selection.
+|
+* 2022 – 2026           SEA College of Engineering and Technology
+                        B.E. AI & Machine Learning (VTU) · CGPA 8.9/10
 ```
 
 ---
@@ -113,28 +155,21 @@ plant-disease-detection/    video-transcription/    multilingual-chatbot/
 ### `$ cat ~/certifications.txt`
 
 ```console
-[✓] Google Advanced Data Analytics — Professional Certificate      Python · ML · EDA   (Coursera)
-[✓] Google AI Essentials                          AI concepts · prompt engineering     (Coursera)
+[✓] Google Advanced Data Analytics — Professional Cert.  (Coursera)
+      Python · Machine Learning · EDA
+[✓] Google AI Essentials                                 (Coursera)
+      AI concepts · prompt engineering
 [✓] HackerRank SQL Certification
 ```
 
 ---
 
-### `$ gh api /users/Asmita7033 --stats`
-
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Asmita7033&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_title=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&border_color=30363d" alt="Asmita's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asmita7033&layout=compact&langs_count=8&hide_title=true&bg_color=00000000&title_color=58a6ff&text_color=8b949e&border_color=30363d" alt="Most used languages" />
-
-<img height="165" src="https://streak-stats.demolab.com?user=Asmita7033&background=00000000&stroke=30363d&border=30363d&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=8b949e&sideNums=8b949e" alt="Contribution streak" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=Asmita7033&theme=dark_dimmed&no-frame=true&column=7&margin-w=8&margin-h=8" alt="GitHub trophies" />
-
-<br><br>
-
-<!-- Snake animation: generated by .github/workflows/snake.yml into the "output" branch.
-     Shows as a broken image until that workflow has run once. -->
+<!-- Snake animation: generated by .github/workflows/snake.yml into the "output"
+     branch of this repo. Shows as a broken image until that workflow has run
+     once — see SETUP.md steps 3-5. It is served from raw.githubusercontent.com,
+     so once generated it is as reliable as the repo itself. -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Asmita7033/Asmita7033/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Asmita7033/Asmita7033/output/github-snake.svg">
