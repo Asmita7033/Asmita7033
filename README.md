@@ -18,7 +18,7 @@
     horizontal scrollbar in the narrow profile column.
   - The username appears in 2 badge URLs and 3 snake URLs. If the handle
     changes, find-and-replace "Asmita7033" across this whole file.
--->
+--> 
 
 <div align="center">
 
