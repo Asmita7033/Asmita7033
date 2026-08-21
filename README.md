@@ -8,33 +8,27 @@
   Editing notes:
   - Every claim below is taken from the resume. Don't add numbers the
     resume doesn't support.
-  - IMAGE POLICY: this page deliberately depends on only two image
-    sources — img.shields.io (rock solid) and raw.githubusercontent.com
-    (her own repo). The github-readme-stats / streak-stats / trophy
-    cards were removed on 2026-08-22 because all three were failing to
-    load on the live profile. Don't reintroduce them unless they're
-    self-hosted.
+  - IMAGE POLICY: the github-readme-stats / streak-stats / trophy cards
+    were removed on 2026-08-22 because all three failed to load on the
+    live profile. Don't reintroduce them unless self-hosted. The typing
+    SVG in the header is fine — that one was checked and does render.
+    Image hosts: img.shields.io, readme-typing-svg.demolab.com (header
+    only), raw.githubusercontent.com (her own repo, for the snake).
   - Keep every code block under 80 characters wide, or GitHub shows a
     horizontal scrollbar in the narrow profile column.
   - The username appears in 2 badge URLs and 3 snake URLs. If the handle
     changes, find-and-replace "Asmita7033" across this whole file.
 -->
 
-```console
-╭──────────────────────────────────────────────────────────────────────────╮
-│                                                                          │
-│   ASMITA PANDEY                                                          │
-│   models that learn  ×  systems that ship                                │
-│                                                                          │
-│   systems/   Django · DRF · PostgreSQL · REST APIs · JWT · pytest        │
-│   models/    TensorFlow · scikit-learn · NLP · Computer Vision           │
-│                                                                          │
-│   B.E. AI & ML (VTU) · CGPA 8.9/10 · Bengaluru, India · immediate joiner │
-│                                                                          │
-╰──────────────────────────────────────────────────────────────────────────╯
-```
-
 <div align="center">
+
+# `Asmita Pandey`
+
+**AI/ML Engineer  ×  Django Backend Developer**
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&pause=1200&duration=2600&color=58A6FF&center=true&vCenter=true&width=680&height=45&lines=I+build+models+that+learn+and+systems+that+ship;Django+%2B+DRF+%2B+PostgreSQL+%2B+REST+APIs;TensorFlow+%2B+scikit-learn+%2B+NLP+%2B+Computer+Vision;B.E.+AI+%26+ML+%2726+%7C+Bengaluru%2C+India+%7C+Immediate+joiner" alt="I build models that learn and systems that ship" />
+
+<br>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=netlify&logoColor=00c7b7)](https://asmitapandeyprotfolio.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0a66c2)](https://linkedin.com/in/asmita-pandey-16a418360)
